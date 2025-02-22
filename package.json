@@ -1,0 +1,25 @@
+{
+  "name": "lecture-09.120",
+  "version": "1.4.1",
+  "description": "Extract Dynamic Parameters",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Robert Hieger",
+  "type": "commonjs",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "./data/*"
+    ]
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}
